@@ -1,15 +1,15 @@
 %define upstream_name    Dist-Zilla-Plugin-GitObtain
-%define upstream_version 0.05
+%define upstream_version 0.06
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	5
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Obtain files from a git repository before building a distribution
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Dist/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://metacpan.org/dist/Dist-Zilla-Plugin-GitObtain
+Source0:	https://cpan.metacpan.org/authors/id/D/DU/DUFF/Dist-Zilla-Plugin-GitObtain-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
